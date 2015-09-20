@@ -1,0 +1,1 @@
+../../../../../React/Libraries/WebSocket/RCTWebSocketManager.h

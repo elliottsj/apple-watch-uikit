@@ -1,0 +1,45 @@
+PODS:
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+  - React/RCTImage (0.11.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.11.0):
+    - React/Core
+  - React/RCTNetwork (0.11.0):
+    - React/Core
+  - React/RCTSettings (0.11.0):
+    - React/Core
+  - React/RCTText (0.11.0):
+    - React/Core
+  - React/RCTWebSocket (0.11.0):
+    - React/Core
+
+DEPENDENCIES:
+  - React (from `https://github.com/elliottsj/react-native.git`, branch `0.11-stable`)
+  - React/RCTImage (from `https://github.com/elliottsj/react-native.git`, branch `0.11-stable`)
+  - React/RCTLinkingIOS (from `https://github.com/elliottsj/react-native.git`, branch
+    `0.11-stable`)
+  - React/RCTNetwork (from `https://github.com/elliottsj/react-native.git`, branch
+    `0.11-stable`)
+  - React/RCTSettings (from `https://github.com/elliottsj/react-native.git`, branch
+    `0.11-stable`)
+  - React/RCTText (from `https://github.com/elliottsj/react-native.git`, branch `0.11-stable`)
+  - React/RCTWebSocket (from `https://github.com/elliottsj/react-native.git`, branch
+    `0.11-stable`)
+
+EXTERNAL SOURCES:
+  React:
+    :branch: 0.11-stable
+    :git: https://github.com/elliottsj/react-native.git
+
+CHECKOUT OPTIONS:
+  React:
+    :commit: eef49a591c7879f111df6113a164ac94d5850359
+    :git: https://github.com/elliottsj/react-native.git
+
+SPEC CHECKSUMS:
+  React: e4ee9f8a19db80809b3e9d7242bf4c65a8e2a30c
+
+COCOAPODS: 0.38.2

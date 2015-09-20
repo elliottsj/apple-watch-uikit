@@ -1,0 +1,1 @@
+PODS_WATCHAPP_REACT_OTHER_LDFLAGS = -framework "JavaScriptCore"
