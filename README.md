@@ -35,7 +35,8 @@ $IPHONE_FRAMEWORKS/SystemConfiguration.framework \
 $WATCH_FRAMEWORKS
 ```
 
-TODO: merge UIKit
+You'll also need to copy-merge UIKit.framework.  
+TODO: provide an rsync command or something.
 
 ### Include `armv7k` in .tbd files
 
