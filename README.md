@@ -4,6 +4,8 @@ Run UIKit on the Watch! Implemented based on @stroughtonsmith's experiment:
 - http://blog.steventroughtonsmith.com/post/128957959685/native-uikit-apps-on-apple-watch
 - http://blog.adambell.ca/post/128957319088/making-truly-native-native-apps-on-apple-watch
 
+Check the [react-native branch](https://github.com/elliottsj/watchkit-uikit/tree/react-native) too experiment with React Native. Currently, the app crashes shortly after launch.
+
 ## Setup
 
 ### Copy iPhoneOS.platform frameworks to WatchOS.platform
