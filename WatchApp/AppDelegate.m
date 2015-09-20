@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  UIKitWatch
+//  VanillaWatch
 //
-//  Created by Spencer Elliott on 2015-09-20.
+//  Created by Spencer Elliott on 2015-09-19.
 //  Copyright © 2015 Spencer Elliott. All rights reserved.
 //
 
@@ -15,7 +15,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     UIScreen *mainScreen = [UIScreen mainScreen];
     CGRect bounds = mainScreen.bounds;
     self.window = [[UIWindow alloc] initWithFrame:bounds];
