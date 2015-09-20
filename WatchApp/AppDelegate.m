@@ -7,6 +7,7 @@
 //
 
 #import <JavaScriptCore/JavaScriptCore.h>
+#import "RCTRootView.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -18,16 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    JSContext *context = [[JSContext alloc] initWithVirtualMachine:[[JSVirtualMachine alloc] init]];
-    context[@"a"] = @5;
+    NSLog(@"Loading JS...");
+    NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
     
-    UIScreen *mainScreen = [UIScreen mainScreen];
-    CGRect bounds = mainScreen.bounds;
-    self.window = [[UIWindow alloc] initWithFrame:bounds];
-    UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    aView.backgroundColor = [UIColor orangeColor];
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"SimpleApp"
+                                                 initialProperties:nil
+                                                     launchOptions:launchOptions];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UIViewController *rootViewController = [[UIViewController alloc] init];
-    rootViewController.view = aView;
+    rootViewController.view = rootView;
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -24,6 +24,7 @@
 		731B372A1BAEA060008FDF3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B37291BAEA060008FDF3D /* main.m */; settings = {ASSET_TAGS = (); }; };
 		731B372D1BAEA07B008FDF3D /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 731B372B1BAEA07B008FDF3D /* AppDelegate.h */; settings = {ASSET_TAGS = (); }; };
 		731B372E1BAEA07B008FDF3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B372C1BAEA07B008FDF3D /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		731B373D1BAEAF45008FDF3D /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 731B373C1BAEAF45008FDF3D /* main.jsbundle */; settings = {ASSET_TAGS = (); }; };
 		CDC668EB266430B648FCDC6A /* libPods-WatchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BA56AC2F99218207C1E0B9 /* libPods-WatchApp.a */; };
 		D9A5E2782AB41AFD8489996C /* libPods-UIKitWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1210D7946DE8D2490CB88 /* libPods-UIKitWatch.a */; };
 /* End PBXBuildFile section */
@@ -100,6 +101,7 @@
 		731B37291BAEA060008FDF3D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		731B372B1BAEA07B008FDF3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		731B372C1BAEA07B008FDF3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		731B373C1BAEAF45008FDF3D /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		85BA56AC2F99218207C1E0B9 /* libPods-WatchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD501DE09838719BE2EC733 /* Pods-UIKitWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitWatch/Pods-UIKitWatch.release.xcconfig"; sourceTree = "<group>"; };
 		D5A425E38E80DFA24B83937F /* Pods-WatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		731B36F61BAE9FF7008FDF3D /* UIKitWatch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				731B373C1BAEAF45008FDF3D /* main.jsbundle */,
 				731B36F71BAE9FF7008FDF3D /* Interface.storyboard */,
 				731B36FA1BAE9FF7008FDF3D /* Assets.xcassets */,
 				731B36FC1BAE9FF7008FDF3D /* Info.plist */,
@@ -385,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731B373D1BAEAF45008FDF3D /* main.jsbundle in Resources */,
 				731B36FB1BAE9FF7008FDF3D /* Assets.xcassets in Resources */,
 				731B36F91BAE9FF7008FDF3D /* Interface.storyboard in Resources */,
 			);
