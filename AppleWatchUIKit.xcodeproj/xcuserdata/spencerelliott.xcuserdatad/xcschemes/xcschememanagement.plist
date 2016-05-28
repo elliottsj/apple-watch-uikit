@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AppleWatchUIKitFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>73513A601CF20E7300D3F461</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73E2A5ED1CFA3EA800D1B431</key>
 		<dict>
 			<key>primary</key>
 			<true/>
