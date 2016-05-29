@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7327A8C21CFB72480056F031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327A8C11CFB72480056F031 /* main.m */; };
 		73513A4F1CF20E7200D3F461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73513A4E1CF20E7200D3F461 /* main.m */; };
 		73513A521CF20E7200D3F461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73513A511CF20E7200D3F461 /* AppDelegate.m */; };
 		73513A551CF20E7200D3F461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73513A541CF20E7200D3F461 /* ViewController.m */; };
@@ -86,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7327A8C11CFB72480056F031 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73513A4A1CF20E7200D3F461 /* AppleWatchUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73513A4E1CF20E7200D3F461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73513A501CF20E7200D3F461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				73E2A5F01CFA3EA800D1B431 /* AppleWatchUIKitFramework.h */,
 				73E2A5F21CFA3EA800D1B431 /* Info.plist */,
+				7327A8C11CFB72480056F031 /* main.m */,
 			);
 			path = AppleWatchUIKitFramework;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7327A8C21CFB72480056F031 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +717,7 @@
 				73E2A5F81CFA3EA800D1B431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
