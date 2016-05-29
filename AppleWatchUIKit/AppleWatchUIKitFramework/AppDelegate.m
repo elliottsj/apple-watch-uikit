@@ -24,7 +24,7 @@
     CGRect bounds = mainScreen.bounds;
     self.window = [[UIWindow alloc] initWithFrame:bounds];
     UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    aView.backgroundColor = [UIColor blueColor];
+    aView.backgroundColor = [UIColor greenColor];
     UIViewController *rootViewController = [[UIViewController alloc] init];
     rootViewController.view = aView;
     self.window.rootViewController = rootViewController;
