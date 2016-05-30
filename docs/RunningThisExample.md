@@ -1,7 +1,15 @@
 ## Running this example
 In the [AppleWatchUIKit](/AppleWatchUIKit) directory is an example Xcode project preconfigured to run a UIKit demo for the Apple Watch. To run it, you must patch some framework files in Xcode.app:
 
+### Patch WatchOS.platform frameworks
+
 ```bash
+# Back up WatchOS.platform frameworks
+# (Restore Frameworks.backup to develop on WatchKit normally)
+sudo cp -R \
+  /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/System/Library/Frameworks/ \
+  /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/System/Library/Frameworks.backup
+
 # Copy Frameworks from iPhoneOS.platform to WatchOS.platform
 # ignoring Foundation.tbd and WatchKit.tbd to prevent build errors
 sudo rsync --archive --verbose \
