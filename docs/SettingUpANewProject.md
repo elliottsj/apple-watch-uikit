@@ -84,6 +84,6 @@ To set up a brand new Xcode project using UIKit on the Apple Watch:
 
   ```
 
-4. Patch WatchOS frameworks [as described in *Running this example*](RunningThisExample.md#patch-watchos-platform-frameworks).
+4. Patch WatchOS frameworks [as described in *Running this example*](RunningThisExample.md#patch-watchosplatform-frameworks).
 
 5. Create a build script to patch the WatchKit app so it loads the framework target's executable. See [AppleWatchUIKit/build.sh](/AppleWatchUIKit/build.sh) for an example.
